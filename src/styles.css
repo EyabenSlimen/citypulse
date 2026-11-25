@@ -3,7 +3,6 @@
 @tailwind utilities;
 
 @layer base {
-  body { @apply bg-cream text-night font-body; }
-  .dark body { @apply bg-night text-cream; }
+  body { @apply bg-cream text-night font-body transition-colors duration-500; }  .dark body { @apply bg-night text-cream; }
   h1, h2, h3 { @apply font-title; }
 }
