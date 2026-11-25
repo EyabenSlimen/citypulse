@@ -1,12 +1,16 @@
-import { Component, signal } from '@angular/core';
+import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
+import { Navbar } from './shared/components/navbar/navbar';
+import { Footer } from './shared/components/footer/footer';
 
 @Component({
-  imports: [RouterOutlet],
   selector: 'app-root',
-  styleUrl: './app.css',
-  templateUrl: './app.html',
+  imports: [RouterOutlet, Navbar, Footer],
+  template: `
+    <div class="min-h-screen flex flex-col">
+      <app-navbar />
+      <main class="flex-1 w-full max-w-6xl mx-auto px-4 py-8"><router-outlet /></main>
+      <app-footer />
+    </div>`,
 })
-export class App {
-  protected readonly title = signal('citypulse');
-}
+export class App {}
