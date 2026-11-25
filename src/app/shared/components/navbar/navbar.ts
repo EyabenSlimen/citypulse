@@ -1,4 +1,5 @@
-import { Component, signal } from '@angular/core';
+import { Component, inject, signal } from '@angular/core';
+import { ThemeService } from '../../../core/services/theme';
 import { RouterLink, RouterLinkActive } from '@angular/router';
 
 @Component({
@@ -21,12 +22,19 @@ import { RouterLink, RouterLinkActive } from '@angular/router';
           }
         </ul>
 
-        <button class="md:hidden text-2xl" (click)="open.set(!open())">{{ open() ? '✕' : '☰' }}</button>
+        <div class="flex items-center gap-3">
+          <button (click)="theme.toggle()" aria-label="Changer de thème"
+                  class="text-xl hover:scale-110 transition">
+            {{ theme.isDark() ? '☀️' : '🌙' }}
+          </button>
+          <button class="md:hidden text-2xl" (click)="open.set(!open())">{{ open() ? '✕' : '☰' }}</button>
+        </div>
       </div>
     </nav>`,
 })
 export class Navbar {
   open = signal(false);
+  theme = inject(ThemeService);
   links = [
     { path: '/', label: 'Accueil' },
     { path: '/shops', label: 'Commerces' },
