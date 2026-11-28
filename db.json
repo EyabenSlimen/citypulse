@@ -1,0 +1,234 @@
+{
+  "shops": [
+    {
+      "id": 1,
+      "name": "Boulangerie Le Fournil",
+      "category": "Boulangerie",
+      "address": "12 rue de la République",
+      "openTime": "06:30",
+      "closeTime": "19:30",
+      "phone": "01 23 45 67 01",
+      "image": "https://picsum.photos/seed/fournil/600/400",
+      "onDuty": false,
+      "description": "Pain au levain, viennoiseries et pâtisseries faites maison chaque matin."
+    },
+    {
+      "id": 2,
+      "name": "Pharmacie du Centre",
+      "category": "Pharmacie",
+      "address": "3 place de l'Hôtel de Ville",
+      "openTime": "08:30",
+      "closeTime": "20:00",
+      "phone": "01 23 45 67 02",
+      "image": "https://picsum.photos/seed/pharmaciecentre/600/400",
+      "onDuty": true,
+      "description": "Pharmacie de garde ce week-end. Conseils santé et matériel médical."
+    },
+    {
+      "id": 3,
+      "name": "Pharmacie des Tilleuls",
+      "category": "Pharmacie",
+      "address": "27 avenue des Tilleuls",
+      "openTime": "09:00",
+      "closeTime": "19:00",
+      "phone": "01 23 45 67 03",
+      "image": "https://picsum.photos/seed/pharmacietilleuls/600/400",
+      "onDuty": false,
+      "description": "Pharmacie de quartier, parapharmacie et orthopédie."
+    },
+    {
+      "id": 4,
+      "name": "Café de la Gare",
+      "category": "Café",
+      "address": "1 place de la Gare",
+      "openTime": "07:00",
+      "closeTime": "23:00",
+      "phone": "01 23 45 67 04",
+      "image": "https://picsum.photos/seed/cafegare/600/400",
+      "onDuty": false,
+      "description": "Café, petits-déjeuners et terrasse ensoleillée face à la gare."
+    },
+    {
+      "id": 5,
+      "name": "Supermarché Bio Verdure",
+      "category": "Supermarché",
+      "address": "45 boulevard Voltaire",
+      "openTime": "08:00",
+      "closeTime": "21:00",
+      "phone": "01 23 45 67 05",
+      "image": "https://picsum.photos/seed/bioverdure/600/400",
+      "onDuty": false,
+      "description": "Fruits, légumes et produits locaux issus de l'agriculture biologique."
+    },
+    {
+      "id": 6,
+      "name": "Librairie Page Blanche",
+      "category": "Librairie",
+      "address": "8 rue Victor Hugo",
+      "openTime": "10:00",
+      "closeTime": "18:30",
+      "phone": "01 23 45 67 06",
+      "image": "https://picsum.photos/seed/pageblanche/600/400",
+      "onDuty": false,
+      "description": "Romans, BD, papeterie et rencontres avec des auteurs locaux."
+    },
+    {
+      "id": 7,
+      "name": "Fleuriste Pétales & Co",
+      "category": "Fleuriste",
+      "address": "19 rue des Lilas",
+      "openTime": "09:00",
+      "closeTime": "19:00",
+      "phone": "01 23 45 67 07",
+      "image": "https://picsum.photos/seed/petales/600/400",
+      "onDuty": false,
+      "description": "Bouquets de saison, plantes d'intérieur et compositions sur mesure."
+    },
+    {
+      "id": 8,
+      "name": "Restaurant Chez Marcel",
+      "category": "Restaurant",
+      "address": "5 quai du Port",
+      "openTime": "11:30",
+      "closeTime": "22:30",
+      "phone": "01 23 45 67 08",
+      "image": "https://picsum.photos/seed/chezmarcel/600/400",
+      "onDuty": false,
+      "description": "Cuisine traditionnelle, plat du jour et menu étudiant."
+    }
+  ],
+  "events": [
+    {
+      "id": 1,
+      "title": "Marché de Noël du centre-ville",
+      "description": "Plus de 60 chalets d'artisans, vin chaud, manège et animations pour les enfants.",
+      "category": "Marché",
+      "date": "2026-12-12T10:00:00.000Z",
+      "location": "Place de l'Hôtel de Ville",
+      "image": "https://picsum.photos/seed/marchenoel/600/400",
+      "participants": 128
+    },
+    {
+      "id": 2,
+      "title": "Concert Jazz au Parc",
+      "description": "Soirée jazz en plein air avec trois groupes locaux. Prévoyez une couverture !",
+      "category": "Concert",
+      "date": "2026-12-05T19:30:00.000Z",
+      "location": "Parc Municipal",
+      "image": "https://picsum.photos/seed/jazzparc/600/400",
+      "participants": 85
+    },
+    {
+      "id": 3,
+      "title": "Exposition Photo : La ville la nuit",
+      "description": "Une trentaine de photographes amateurs dévoilent leur vision urbaine nocturne.",
+      "category": "Exposition",
+      "date": "2026-12-08T14:00:00.000Z",
+      "location": "Médiathèque Jean Moulin",
+      "image": "https://picsum.photos/seed/photonuit/600/400",
+      "participants": 42
+    },
+    {
+      "id": 4,
+      "title": "Marché des producteurs locaux",
+      "description": "Fromages, miel, légumes et produits frais directement des fermes du coin.",
+      "category": "Marché",
+      "date": "2026-12-02T08:00:00.000Z",
+      "location": "Place du Marché",
+      "image": "https://picsum.photos/seed/producteurs/600/400",
+      "participants": 64
+    },
+    {
+      "id": 5,
+      "title": "Course solidaire 10 km",
+      "description": "Course ouverte à tous au profit des associations de la ville. Inscription sur place.",
+      "category": "Sport",
+      "date": "2026-12-20T09:00:00.000Z",
+      "location": "Stade Municipal",
+      "image": "https://picsum.photos/seed/course10k/600/400",
+      "participants": 210
+    },
+    {
+      "id": 6,
+      "title": "Soirée Théâtre d'improvisation",
+      "description": "Les troupes de la ville s'affrontent en improvisation. Rires garantis !",
+      "category": "Spectacle",
+      "date": "2026-12-18T20:30:00.000Z",
+      "location": "Théâtre des Arts",
+      "image": "https://picsum.photos/seed/impro/600/400",
+      "participants": 73
+    }
+  ],
+  "alerts": [
+    {
+      "id": 1,
+      "title": "Route barrée avenue Jean Jaurès",
+      "description": "Un arbre est tombé sur la chaussée. Circulation coupée dans les deux sens.",
+      "type": "route",
+      "location": "Avenue Jean Jaurès",
+      "severity": "urgente",
+      "createdAt": "2026-11-28T07:45:00.000Z"
+    },
+    {
+      "id": 2,
+      "title": "Travaux de voirie rue des Lilas",
+      "description": "Réfection du trottoir jusqu'à vendredi. Circulation alternée.",
+      "type": "travaux",
+      "location": "Rue des Lilas",
+      "severity": "faible",
+      "createdAt": "2026-11-27T09:00:00.000Z"
+    },
+    {
+      "id": 3,
+      "title": "Accident carrefour du Moulin",
+      "description": "Collision entre deux véhicules. Prudence et ralentissements importants.",
+      "type": "accident",
+      "location": "Carrefour du Moulin",
+      "severity": "moyenne",
+      "createdAt": "2026-11-28T08:30:00.000Z"
+    },
+    {
+      "id": 4,
+      "title": "Coupure d'eau quartier Saint-Paul",
+      "description": "Une fuite sur la canalisation principale prive d'eau une trentaine de foyers.",
+      "type": "eau",
+      "location": "Quartier Saint-Paul",
+      "severity": "urgente",
+      "createdAt": "2026-11-28T06:10:00.000Z"
+    },
+    {
+      "id": 5,
+      "title": "Travaux d'éclairage boulevard Voltaire",
+      "description": "Remplacement des lampadaires par des LED, de 9h à 16h.",
+      "type": "travaux",
+      "location": "Boulevard Voltaire",
+      "severity": "faible",
+      "createdAt": "2026-11-26T14:20:00.000Z"
+    },
+    {
+      "id": 6,
+      "title": "Verglas sur le pont de la Rivière",
+      "description": "Chaussée glissante ce matin. Roulez doucement.",
+      "type": "route",
+      "location": "Pont de la Rivière",
+      "severity": "moyenne",
+      "createdAt": "2026-11-28T05:50:00.000Z"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "Admin CityPulse",
+      "email": "admin@citypulse.fr",
+      "password": "admin123",
+      "role": "admin"
+    },
+    {
+      "id": 2,
+      "name": "Sophie Martin",
+      "email": "sophie@citypulse.fr",
+      "password": "user123",
+      "role": "user"
+    }
+  ]
+}
